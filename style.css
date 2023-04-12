@@ -1,0 +1,43 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+header .header_main {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  height: auto;
+  width: 100vw;
+  padding: 15px;
+  border-bottom: solid 1.5px #aaa;
+}
+header .header_main .logo_textlo .logo {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(255, 72, 0);
+  vertical-align: middle;
+  border-radius: 100%;
+}
+header .header_main .logo_textlo .textlo {
+  display: inline-block;
+  vertical-align: middle;
+}
+header .header_main .serch_box {
+  display: inline-flex;
+  width: 40%;
+  height: 40px;
+  background-color: #f0f0f0;
+  padding: 12px;
+  border-radius: 1.25em;
+  margin-left: 150px;
+  vertical-align: middle;
+  border: none;
+  align-items: center;
+}
+header .header_main .serch_box input {
+  display: inline-block;
+  border: none;
+  background-color: #f0f0f0;
+  padding-left: 12px;
+}
