@@ -90,7 +90,7 @@ header .header_main .rightItem .icon {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  background-color: #aaa;
+  background-color: #f0f0f0;
   width: 100px;
   height: 40px;
   border-radius: 1.25em;
@@ -98,4 +98,72 @@ header .header_main .rightItem .icon {
 header .header_main .rightItem .icon i {
   padding-left: 5px;
   padding-right: 5px;
+}
+/* ------------- end header ----------------*/
+section .mainContain .row .leftBox {
+  position: fixed;
+  left: 0;
+  /* set leftbox to fit the left side */
+  padding: 12px 15px 12px 15px;
+}
+section .mainContain .row .rightBox {
+  position: fixed;
+  right: 0;
+  /* set rightbox to fit the right side */
+  background-color: #f0f0f0;
+  padding: 12px 50px 12px 50px;
+}
+section .mainContain .row .leftBox .text {
+  color: #aaa;
+  font-size: small;
+}
+/* start home label */
+section .mainContain .row .leftBox .home {
+  margin-top: 12px;
+}
+section .mainContain .row .leftBox .home i {
+  display: inline-block;
+  padding-right: 12px;
+}
+section .mainContain .row .leftBox .home .textHome {
+  display: inline-block;
+}
+/* end home label */
+
+/* start poppular label */
+section .mainContain .row .leftBox .poppular {
+  margin-top: 12px;
+}
+section .mainContain .row .leftBox .poppular i {
+  display: inline-block;
+  padding-right: 12px;
+}
+section .mainContain .row .leftBox .poppular .textPop {
+  display: inline-block;
+}
+/* end poppular label */
+
+/* start line box */
+section .mainContain .row .leftBox .line {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+section .mainContain .row .leftBox .line hr {
+  width: 80%;
+}
+/* end line box */
+
+/* start gaming label */
+section .mainContain .row .leftBox .gaming {
+  margin-top: 12px;
+}
+section .mainContain .row .leftBox .gaming i {
+  display: inline-block;
+  padding-right: 12px;
+}
+section .mainContain .row .leftBox .gaming .textGaming {
+  display: inline-block;
 }
