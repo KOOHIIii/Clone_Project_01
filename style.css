@@ -158,6 +158,7 @@ section .mainContain .row .leftBox .line hr {
 
 /* start gaming label */
 section .mainContain .row .leftBox .gaming {
+  display: flex;
   margin-top: 12px;
 }
 section .mainContain .row .leftBox .gaming i {
@@ -166,4 +167,91 @@ section .mainContain .row .leftBox .gaming i {
 }
 section .mainContain .row .leftBox .gaming .textGaming {
   display: inline-block;
+}
+/* end gaming label */
+
+/* start sport label */
+section .mainContain .row .leftBox .sport {
+  margin-top: 12px;
+}
+section .mainContain .row .leftBox .sport i {
+  display: inline-block;
+  width: 32px;
+  padding-right: 12px;
+}
+section .mainContain .row .leftBox .sport .textSport {
+  display: inline-block;
+}
+/* end sport label */
+
+/* start business label */
+section .mainContain .row .leftBox .business {
+  margin-top: 12px;
+}
+section .mainContain .row .leftBox .business i {
+  display: inline-block;
+  width: 38;
+  padding-right: 12px;
+}
+section .mainContain .row .leftBox .business .textBusiness {
+  display: inline-block;
+}
+/* end business label */
+
+/* start crypto label */
+section .mainContain .row .leftBox .crypto {
+  margin-top: 12px;
+}
+section .mainContain .row .leftBox .crypto i {
+  display: inline-block;
+  padding-right: 12px;
+}
+section .mainContain .row .leftBox .crypto .textCrypto {
+  display: inline-block;
+}
+/* end crypto label */
+
+/* start tv label */
+section .mainContain .row .leftBox .televetion {
+  margin-top: 12px;
+}
+section .mainContain .row .leftBox .televetion i {
+  display: inline-block;
+  padding-right: 12px;
+}
+section .mainContain .row .leftBox .televetion .textTv {
+  display: inline-block;
+}
+/* end tv label */
+
+/* start celebrity */
+section .mainContain .row .leftBox .celebrity {
+  margin-top: 12px;
+}
+section .mainContain .row .leftBox .celebrity i {
+  display: inline-block;
+  padding-right: 12px;
+}
+section .mainContain .row .leftBox .celebrity .textCelebrity {
+  display: inline-block;
+}
+/* end celebrity */
+
+/* start moretopic label */
+section .mainContain .row .leftBox .moreTopics {
+  margin-top: 12px;
+}
+section .mainContain .row .leftBox .moreTopics i {
+  display: inline-block;
+  padding-right: 12px;
+}
+section .mainContain .row .leftBox .moreTopics .textTopics {
+  display: inline-block;
+}
+
+/* end moretopic label */
+
+/* add margin title label */
+section .mainContain .row .leftBox .topic .text {
+  margin-top: 12px;
 }
