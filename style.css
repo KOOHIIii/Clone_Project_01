@@ -161,6 +161,11 @@ section .mainContain .row .leftBox .gaming {
   display: flex;
   margin-top: 12px;
 }
+section .mainContain .row .leftBox .gaming .gameIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
 section .mainContain .row .leftBox .gaming i {
   display: inline-block;
   padding-right: 12px;
@@ -168,10 +173,20 @@ section .mainContain .row .leftBox .gaming i {
 section .mainContain .row .leftBox .gaming .textGaming {
   display: inline-block;
 }
+section .mainContain .row .leftBox .gaming .boxArrow {
+  width: 100%;
+  display: inline-flex;
+  justify-content: right;
+  align-items: center;
+}
+section .mainContain .row .leftBox .gaming .boxArrow i {
+  padding: 0px;
+}
 /* end gaming label */
 
 /* start sport label */
 section .mainContain .row .leftBox .sport {
+  display: flex;
   margin-top: 12px;
 }
 section .mainContain .row .leftBox .sport i {
@@ -181,6 +196,19 @@ section .mainContain .row .leftBox .sport i {
 }
 section .mainContain .row .leftBox .sport .textSport {
   display: inline-block;
+}
+section .mainContain .row .leftBox .sport .boxArrow i {
+  width: 12px;
+}
+section .mainContain .row .leftBox .sport .boxArrow {
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+  justify-content: right;
+}
+section .mainContain .row .leftBox .sport .sportIcon {
+  display: inline-flex;
+  align-items: center;
 }
 /* end sport label */
 
