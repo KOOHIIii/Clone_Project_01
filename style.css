@@ -198,7 +198,8 @@ section .mainContain .row .leftBox .sport .textSport {
   display: inline-block;
 }
 section .mainContain .row .leftBox .sport .boxArrow i {
-  width: 12px;
+  padding: 0px;
+  width: auto;
 }
 section .mainContain .row .leftBox .sport .boxArrow {
   display: inline-flex;
@@ -214,33 +215,65 @@ section .mainContain .row .leftBox .sport .sportIcon {
 
 /* start business label */
 section .mainContain .row .leftBox .business {
+  display: flex;
   margin-top: 12px;
 }
 section .mainContain .row .leftBox .business i {
   display: inline-block;
-  width: 38;
+  width: 32;
   padding-right: 12px;
 }
 section .mainContain .row .leftBox .business .textBusiness {
   display: inline-block;
 }
+section .mainContain .row .leftBox .business .boxArrow {
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+  justify-content: right;
+}
+section .mainContain .row .leftBox .business .boxArrow i {
+  padding: 0px;
+}
+section .mainContain .row .leftBox .business .busiIcon {
+  display: inline-flex;
+  align-items: center;
+}
+
 /* end business label */
 
 /* start crypto label */
 section .mainContain .row .leftBox .crypto {
+  display: flex;
   margin-top: 12px;
 }
 section .mainContain .row .leftBox .crypto i {
   display: inline-block;
   padding-right: 12px;
+  width: 32px;
 }
 section .mainContain .row .leftBox .crypto .textCrypto {
   display: inline-block;
+}
+section .mainContain .row .leftBox .crypto .boxArrow {
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+  justify-content: right;
+}
+section .mainContain .row .leftBox .crypto .boxArrow i {
+  width: auto;
+  padding: 0px;
+}
+section .mainContain .row .leftBox .crypto .cryptoIcon {
+  display: inline-flex;
+  align-items: center;
 }
 /* end crypto label */
 
 /* start tv label */
 section .mainContain .row .leftBox .televetion {
+  display: flex;
   margin-top: 12px;
 }
 section .mainContain .row .leftBox .televetion i {
@@ -250,34 +283,78 @@ section .mainContain .row .leftBox .televetion i {
 section .mainContain .row .leftBox .televetion .textTv {
   display: inline-block;
 }
+section .mainContain .row .leftBox .televetion .boxArrow {
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+  justify-content: right;
+}
+section .mainContain .row .leftBox .televetion .boxArrow i {
+  padding: 0px;
+}
+section .mainContain .row .leftBox .televetion .tvIcon {
+  display: inline-flex;
+  align-items: center;
+}
 /* end tv label */
 
 /* start celebrity */
 section .mainContain .row .leftBox .celebrity {
+  display: flex;
   margin-top: 12px;
 }
 section .mainContain .row .leftBox .celebrity i {
   display: inline-block;
   padding-right: 12px;
+  width: 32px;
 }
 section .mainContain .row .leftBox .celebrity .textCelebrity {
   display: inline-block;
 }
+section .mainContain .row .leftBox .celebrity .boxArrow {
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+  justify-content: right;
+}
+section .mainContain .row .leftBox .celebrity .boxArrow i {
+  padding: 0px;
+  width: auto;
+}
+section .mainContain .row .leftBox .celebrity .celeIcon {
+  display: inline-flex;
+  align-items: center;
+}
 /* end celebrity */
 
-/* start moretopic label */
+/* start moreTopic label */
 section .mainContain .row .leftBox .moreTopics {
+  display: flex;
   margin-top: 12px;
 }
 section .mainContain .row .leftBox .moreTopics i {
   display: inline-block;
   padding-right: 12px;
+  width: 34px;
 }
 section .mainContain .row .leftBox .moreTopics .textTopics {
   display: inline-block;
 }
-
-/* end moretopic label */
+section .mainContain .row .leftBox .moreTopics .boxArrow {
+  display: inline-flex;
+  width: 100%;
+  align-items: center;
+  justify-content: right;
+}
+section .mainContain .row .leftBox .moreTopics .boxArrow i {
+  padding: 0px;
+  width: auto;
+}
+section .mainContain .row .leftBox .moreTopics .moreIcon {
+  display: inline-flex;
+  align-items: center;
+}
+/* end moreTopic label */
 
 /* add margin title label */
 section .mainContain .row .leftBox .topic .text {
