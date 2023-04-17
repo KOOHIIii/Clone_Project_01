@@ -15,12 +15,18 @@ header .header_main .logo_textlo {
   width: 200px;
 }
 header .header_main .logo_textlo .logo {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
+  display: inline-flex;
+  width: auto;
+  height: auto;
   background-color: rgb(255, 72, 0);
   vertical-align: middle;
   border-radius: 100%;
+  align-items: center;
+  justify-content: center;
+}
+header .header_main .logo_textlo .logo .redditImg img {
+  width: 40px;
+  height: auto;
 }
 header .header_main .logo_textlo .textlo {
   display: inline-block;
