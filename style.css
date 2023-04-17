@@ -402,3 +402,10 @@ section .mainContain .row .leftBox .joinBtnFx .joinBtn button {
   background-color: orangered;
   border: none;
 }
+/* end joinBtn */
+
+/* //////////////  start right box ///////////// */
+
+section .mainContain .row .rightBox .trenContain .row .mainTrending {
+  background-color: rgb(228, 194, 182);
+}
