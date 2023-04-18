@@ -363,6 +363,7 @@ section .mainContain .row .leftBox .moreTopics .boxArrow i {
 section .mainContain .row .leftBox .moreTopics .moreIcon {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   width: 50px;
 }
 /* end moreTopic label */
@@ -406,6 +407,48 @@ section .mainContain .row .leftBox .joinBtnFx .joinBtn button {
 
 /* //////////////  start right box ///////////// */
 
+/* start creat trending box */
 section .mainContain .row .rightBox .trenContain .row .mainTrending {
   background-color: rgb(228, 194, 182);
+}
+section .mainContain .row .rightBox .trenContain .row .mainTrending h6 {
+  padding-left: 12px;
+}
+
+/* start content one of trending box */
+section
+  .mainContain
+  .row
+  .rightBox
+  .trenContain
+  .row
+  .mainTrending
+  .itemTrending
+  .boxItem_1 {
+  background-color: rgb(205, 84, 41);
+  width: 238px;
+  height: 178px;
+  cursor: pointer;
+  border-radius: 0.5em;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 246, 252, 0),
+      rgba(60, 60, 60, 1)
+    ),
+    url("img/workIntech.jpeg");
+
+  background-size: cover;
+}
+section
+  .mainContain
+  .row
+  .rightBox
+  .trenContain
+  .row
+  .mainTrending
+  .itemTrending
+  .col-md-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
