@@ -345,7 +345,7 @@ section .mainContain .row .leftBox .moreTopics {
 section .mainContain .row .leftBox .moreTopics i {
   display: inline-block;
   padding-right: 12px;
-  width: 34px;
+  width: 32px;
 }
 section .mainContain .row .leftBox .moreTopics .textTopics {
   display: inline-block;
@@ -424,21 +424,20 @@ section
   .row
   .mainTrending
   .itemTrending
+  .colum1
   .boxItem_1 {
   background-color: rgb(205, 84, 41);
   width: 238px;
   height: 178px;
   cursor: pointer;
   border-radius: 0.5em;
-  background-image: linear-gradient(
-      to bottom,
-      rgba(245, 246, 252, 0),
-      rgba(60, 60, 60, 1)
+  background-image: linear-gradient(0deg,#000,rgba(0,0,0,.8) 25%,rgba(0,0,0,.6) 50%,rgba(0,0,0,.4) 75%,rgba(0,0,0,.2)
     ),
     url("img/workIntech.jpeg");
 
   background-size: cover;
 }
+/* set col-md-3 to flex for set layout of item to center */
 section
   .mainContain
   .row
@@ -451,4 +450,105 @@ section
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* set text in itembox of contentItem_1 */
+section
+  .mainContain
+  .row
+  .rightBox
+  .trenContain
+  .row
+  .mainTrending
+  .itemTrending
+  .col-md-3
+  .boxItem_1
+  .contentItem_1 {
+  color: #fff;
+  padding: 12px;
+  line-height: 1.5em;
+  margin-top: 30px;
+  text-shadow: 1px 1px 2px black;v
+}
+/* set space of tille */
+section
+  .mainContain
+  .row
+  .rightBox
+  .trenContain
+  .row
+  .mainTrending
+  .itemTrending
+  .col-md-3
+  .boxItem_1
+  .contentItem_1
+  .title
+  h5 {
+  margin: 0px;
+}
+/* set space of suptitle */
+section
+  .mainContain
+  .row
+  .rightBox
+  .trenContain
+  .row
+  .mainTrending
+  .itemTrending
+  .col-md-3
+  .boxItem_1
+  .contentItem_1
+  .supTitle
+  p {
+  margin: 0px;
+}
+section
+  .mainContain
+  .row
+  .rightBox
+  .trenContain
+  .row
+  .mainTrending
+  .itemTrending
+  .col-md-3
+  .boxItem_1
+  .contentItem_1
+  .ftContent {
+  display: flex;
+  align-items: center;
+}
+section
+  .mainContain
+  .row
+  .rightBox
+  .trenContain
+  .row
+  .mainTrending
+  .itemTrending
+  .col-md-3
+  .boxItem_1
+  .contentItem_1
+  .ftContent
+  .ftIcon {
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: #f0f0f0;
+  display: inline-block;
+}
+section
+  .mainContain
+  .row
+  .rightBox
+  .trenContain
+  .row
+  .mainTrending
+  .itemTrending
+  .col-md-3
+  .boxItem_1
+  .contentItem_1
+  .ftContent
+  .ftText {
+  display: inline-block;
+  padding: 4px;
 }
