@@ -634,3 +634,40 @@ section
   background-size: cover;
 }
 /* end change background img of boxItem4 */
+
+/* -------- start Popular section content -------- */
+
+/* set layout to be same padding as the above boxs */
+section
+  .mainContain
+  .row
+  .rightBox
+  .mainPopularContent
+  .row
+  .supMainPopularCN
+  h6 {
+  padding: 12px;
+  margin: 0px;
+}
+
+/* start firstBoxPopCN */
+
+section
+  .mainContain
+  .row
+  .rightBox
+  .mainPopularContent
+  .row
+  .supMainPopularCN
+  .rowSupMainPopCN
+  .firstBoxPopCN {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  margin-left: 12px;
+  display: flex;
+}
+
+/* end firstBoxPopCN */
+
+/* -------- end Popular section content -------- */
