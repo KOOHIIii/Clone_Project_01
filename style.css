@@ -408,9 +408,9 @@ section .mainContain .row .leftBox .joinBtnFx .joinBtn button {
 /* //////////////  start right box ///////////// */
 
 /* start creat trending box */
-section .mainContain .row .rightBox .trenContain .row .mainTrending {
+/* section .mainContain .row .rightBox .trenContain .row .mainTrending {
   background-color: rgb(228, 194, 182);
-}
+} */
 section .mainContain .row .rightBox .trenContain .row .mainTrending h6 {
   padding-left: 12px;
 }
@@ -469,7 +469,7 @@ section
   .itemTrending
   .col-md-3
   .boxItem_1
-  .contentItem_1 {
+  .contentItem {
   color: #fff;
   padding: 12px;
   line-height: 1.5em;
@@ -487,7 +487,7 @@ section
   .itemTrending
   .col-md-3
   .boxItem_1
-  .contentItem_1
+  .contentItem
   .title
   h5 {
   margin: 0px;
@@ -503,7 +503,7 @@ section
   .itemTrending
   .col-md-3
   .boxItem_1
-  .contentItem_1
+  .contentItem
   .supTitle
   p {
   margin: 0px;
@@ -518,7 +518,7 @@ section
   .itemTrending
   .col-md-3
   .boxItem_1
-  .contentItem_1
+  .contentItem
   .ftContent {
   display: flex;
   align-items: center;
@@ -533,7 +533,7 @@ section
   .itemTrending
   .col-md-3
   .boxItem_1
-  .contentItem_1
+  .contentItem
   .ftContent
   .ftIcon {
   width: 15px;
@@ -552,9 +552,85 @@ section
   .itemTrending
   .col-md-3
   .boxItem_1
-  .contentItem_1
+  .contentItem
   .ftContent
   .ftText {
   display: inline-block;
   padding: 4px;
 }
+/* end content one of trending box */
+
+/* start change background img of boxItem2 */
+section
+  .mainContain
+  .row
+  .rightBox
+  .trenContain
+  .row
+  .mainTrending
+  .itemTrending
+  .colum1
+  .boxItem_2 {
+  background-image: linear-gradient(
+      0deg,
+      #000,
+      rgba(0, 0, 0, 0.8) 25%,
+      rgba(0, 0, 0, 0.6) 50%,
+      rgba(0, 0, 0, 0.4) 75%,
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("img/sport.avif");
+
+  background-size: cover;
+}
+/* end change background img of boxItem2 */
+
+/* start change background img of boxItem3 */
+section
+  .mainContain
+  .row
+  .rightBox
+  .trenContain
+  .row
+  .mainTrending
+  .itemTrending
+  .colum1
+  .boxItem_3 {
+  background-image: linear-gradient(
+      0deg,
+      #000,
+      rgba(0, 0, 0, 0.8) 25%,
+      rgba(0, 0, 0, 0.6) 50%,
+      rgba(0, 0, 0, 0.4) 75%,
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("img/game.avif");
+
+  background-size: cover;
+}
+/* end change background img of boxItem3 */
+
+/* start change background img of boxItem4 */
+section
+  .mainContain
+  .row
+  .rightBox
+  .trenContain
+  .row
+  .mainTrending
+  .itemTrending
+  .colum1
+  .boxItem_4 {
+  background-image: linear-gradient(
+      0deg,
+      #000,
+      rgba(0, 0, 0, 0.8) 25%,
+      rgba(0, 0, 0, 0.6) 50%,
+      rgba(0, 0, 0, 0.4) 75%,
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("img/board_game.avif");
+
+  background-size: cover;
+}
+/* end change background img of boxItem4 */
