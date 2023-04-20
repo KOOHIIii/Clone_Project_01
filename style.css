@@ -635,11 +635,7 @@ section
 }
 /* end change background img of boxItem4 */
 
-<<<<<<< HEAD
 /* -------- start Popular post section content -------- */
-=======
-/* -------- start Popular section content -------- */
->>>>>>> 015dcf62bfb05a1cf5d7b6ebd22db9d3458bd831
 
 /* set layout to be same padding as the above boxs */
 section
@@ -654,11 +650,7 @@ section
   margin: 0px;
 }
 
-<<<<<<< HEAD
 /* start set layout of firstbox of mainPopularContent */
-=======
-/* start firstBoxPopCN */
->>>>>>> 015dcf62bfb05a1cf5d7b6ebd22db9d3458bd831
 
 section
   .mainContain
@@ -668,19 +660,17 @@ section
   .row
   .supMainPopularCN
   .rowSupMainPopCN
-<<<<<<< HEAD
   .grit_8
-=======
->>>>>>> 015dcf62bfb05a1cf5d7b6ebd22db9d3458bd831
   .firstBoxPopCN {
   width: 100%;
   height: auto;
   background-color: #fff;
   margin-left: 12px;
   display: flex;
+  border-radius: 4px;
+  border: 1px solid #ccc;
 }
 
-<<<<<<< HEAD
 /* end set layout of firstbox of mainPopularContent */
 
 /* start set padding of all icon and content in first box of popular post section */
@@ -701,7 +691,7 @@ section
 
 /* end set padding of all icon and content in first box of popular post section */
 
-/* start set border and bgcolor for hot icon box */
+/* start set layout of hot icon box in first box*/
 
 section
   .mainContain
@@ -719,10 +709,11 @@ section
   border-radius: 1.25em;
   width: 70px;
   height: 32px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   color: #0079d3;
+  margin-right: 12px;
 }
 section
   .mainContain
@@ -740,11 +731,104 @@ section
   margin-right: 6px;
 }
 
-/* end set border and bgcolor for hot icon box */
+/* end set layout of hot icon box in first box */
+
+/* start set layout of thailand box in first box */
+
+section
+  .mainContain
+  .row
+  .rightBox
+  .mainPopularContent
+  .row
+  .supMainPopularCN
+  .rowSupMainPopCN
+  .grit_8
+  .firstBoxPopCN
+  .contentFirstBox
+  .thailand {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6f7f8;
+  border-radius: 1.25em;
+  color: #0079d3;
+  width: 111px;
+  height: 32px;
+  margin-right: 12px;
+}
+
+section
+  .mainContain
+  .row
+  .rightBox
+  .mainPopularContent
+  .row
+  .supMainPopularCN
+  .rowSupMainPopCN
+  .grit_8
+  .firstBoxPopCN
+  .contentFirstBox
+  .thailand
+  span {
+  margin-right: 6px;
+}
+
+section
+  .mainContain
+  .row
+  .rightBox
+  .mainPopularContent
+  .row
+  .supMainPopularCN
+  .rowSupMainPopCN
+  .grit_8
+  .firstBoxPopCN
+  .contentFirstBox
+  .thailand
+  i {
+  padding-top: 4px;
+}
+
+/* end set layout of thailand box in first box */
+
+/* stard set layout of New box in first box */
+
+section
+  .mainContain
+  .row
+  .rightBox
+  .mainPopularContent
+  .row
+  .supMainPopularCN
+  .rowSupMainPopCN
+  .grit_8
+  .firstBoxPopCN
+  .contentFirstBox
+  .new {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  color: #9c9fa0;
+  margin-right: 12px;
+}
+
+section
+  .mainContain
+  .row
+  .rightBox
+  .mainPopularContent
+  .row
+  .supMainPopularCN
+  .rowSupMainPopCN
+  .grit_8
+  .firstBoxPopCN
+  .contentFirstBox
+  .new
+  i {
+  margin-right: 6px;
+}
+
+/* end set layout of New box in first box */
 
 /* -------- end Popular post section content -------- */
-=======
-/* end firstBoxPopCN */
-
-/* -------- end Popular section content -------- */
->>>>>>> 015dcf62bfb05a1cf5d7b6ebd22db9d3458bd831
