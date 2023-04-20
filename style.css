@@ -635,7 +635,7 @@ section
 }
 /* end change background img of boxItem4 */
 
-/* -------- start Popular section content -------- */
+/* -------- start Popular post section content -------- */
 
 /* set layout to be same padding as the above boxs */
 section
@@ -650,7 +650,7 @@ section
   margin: 0px;
 }
 
-/* start firstBoxPopCN */
+/* start set layout of firstbox of mainPopularContent */
 
 section
   .mainContain
@@ -660,6 +660,7 @@ section
   .row
   .supMainPopularCN
   .rowSupMainPopCN
+  .grit_8
   .firstBoxPopCN {
   width: 100%;
   height: auto;
@@ -668,6 +669,65 @@ section
   display: flex;
 }
 
-/* end firstBoxPopCN */
+/* end set layout of firstbox of mainPopularContent */
 
-/* -------- end Popular section content -------- */
+/* start set padding of all icon and content in first box of popular post section */
+
+section
+  .mainContain
+  .row
+  .rightBox
+  .mainPopularContent
+  .row
+  .supMainPopularCN
+  .rowSupMainPopCN
+  .grit_8
+  .firstBoxPopCN
+  .contentFirstBox {
+  padding: 10px 12px 10px 12px;
+}
+
+/* end set padding of all icon and content in first box of popular post section */
+
+/* start set border and bgcolor for hot icon box */
+
+section
+  .mainContain
+  .row
+  .rightBox
+  .mainPopularContent
+  .row
+  .supMainPopularCN
+  .rowSupMainPopCN
+  .grit_8
+  .firstBoxPopCN
+  .contentFirstBox
+  .hotIcon {
+  background-color: #f6f7f8;
+  border-radius: 1.25em;
+  width: 70px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #0079d3;
+}
+section
+  .mainContain
+  .row
+  .rightBox
+  .mainPopularContent
+  .row
+  .supMainPopularCN
+  .rowSupMainPopCN
+  .grit_8
+  .firstBoxPopCN
+  .contentFirstBox
+  .hotIcon
+  i {
+  margin-right: 6px;
+}
+
+/* end set border and bgcolor for hot icon box */
+
+/* -------- end Popular post section content -------- */
