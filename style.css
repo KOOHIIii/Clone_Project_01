@@ -635,7 +635,11 @@ section
 }
 /* end change background img of boxItem4 */
 
+<<<<<<< HEAD
 /* -------- start Popular post section content -------- */
+=======
+/* -------- start Popular section content -------- */
+>>>>>>> 015dcf62bfb05a1cf5d7b6ebd22db9d3458bd831
 
 /* set layout to be same padding as the above boxs */
 section
@@ -650,7 +654,11 @@ section
   margin: 0px;
 }
 
+<<<<<<< HEAD
 /* start set layout of firstbox of mainPopularContent */
+=======
+/* start firstBoxPopCN */
+>>>>>>> 015dcf62bfb05a1cf5d7b6ebd22db9d3458bd831
 
 section
   .mainContain
@@ -660,7 +668,10 @@ section
   .row
   .supMainPopularCN
   .rowSupMainPopCN
+<<<<<<< HEAD
   .grit_8
+=======
+>>>>>>> 015dcf62bfb05a1cf5d7b6ebd22db9d3458bd831
   .firstBoxPopCN {
   width: 100%;
   height: auto;
@@ -669,6 +680,7 @@ section
   display: flex;
 }
 
+<<<<<<< HEAD
 /* end set layout of firstbox of mainPopularContent */
 
 /* start set padding of all icon and content in first box of popular post section */
@@ -731,3 +743,8 @@ section
 /* end set border and bgcolor for hot icon box */
 
 /* -------- end Popular post section content -------- */
+=======
+/* end firstBoxPopCN */
+
+/* -------- end Popular section content -------- */
+>>>>>>> 015dcf62bfb05a1cf5d7b6ebd22db9d3458bd831
