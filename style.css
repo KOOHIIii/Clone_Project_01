@@ -695,6 +695,7 @@ section
   .contentFirstBox {
   padding: 10px 12px 10px 12px;
   cursor: pointer;
+  width: 100%;
 }
 
 /* end set padding of all icon and content in first box of popular post section */
@@ -996,5 +997,128 @@ section
 }
 
 /* end set layout of dot box in first box */
+
+/* start set layout of card box in first box */
+
+section
+  .mainContain
+  .row
+  .rightBox
+  .mainPopularContent
+  .row
+  .supMainPopularCN
+  .rowSupMainPopCN
+  .grit_8
+  .firstBoxPopCN
+  .contentFirstBox
+  .card {
+  width: 41.2%;
+  display: inline-flex;
+  align-items: end;
+  justify-content: center;
+  border: none;
+}
+section
+  .mainContain
+  .row
+  .rightBox
+  .mainPopularContent
+  .row
+  .supMainPopularCN
+  .rowSupMainPopCN
+  .grit_8
+  .firstBoxPopCN
+  .contentFirstBox
+  .card
+  button {
+  width: 52px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: none;
+  color: #9c9fa0;
+}
+section
+  .mainContain
+  .row
+  .rightBox
+  .mainPopularContent
+  .row
+  .supMainPopularCN
+  .rowSupMainPopCN
+  .grit_8
+  .firstBoxPopCN
+  .contentFirstBox
+  .card
+  button:hover {
+  background-color: #f6f7f8;
+  border-radius: 20px;
+}
+
+section
+  .mainContain
+  .row
+  .rightBox
+  .mainPopularContent
+  .row
+  .supMainPopularCN
+  .rowSupMainPopCN
+  .grit_8
+  .firstBoxPopCN
+  .contentFirstBox
+  .card
+  button:active {
+  background-color: #dbdee1;
+  /* border-radius: 20px; */
+}
+
+/* set dropdown of card box */
+
+section
+  .mainContain
+  .row
+  .rightBox
+  .mainPopularContent
+  .row
+  .supMainPopularCN
+  .rowSupMainPopCN
+  .grit_8
+  .firstBoxPopCN
+  .contentFirstBox
+  .card
+  .my-dropDown {
+  display: block;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-top: 220px;
+}
+
+section
+  .mainContain
+  .row
+  .rightBox
+  .mainPopularContent
+  .row
+  .supMainPopularCN
+  .rowSupMainPopCN
+  .grit_8
+  .firstBoxPopCN
+  .contentFirstBox
+  .card
+  .my-dropDown
+  a {
+  display: block;
+  padding: 12px 16px;
+  text-decoration: none;
+  color: #000;
+}
+
+/* end set layout of card box in first box */
 
 /* -------- end Popular post section content -------- */
