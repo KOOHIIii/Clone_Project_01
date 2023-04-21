@@ -403,6 +403,13 @@ section .mainContain .row .leftBox .joinBtnFx .joinBtn button {
   background-color: orangered;
   border: none;
 }
+section .mainContain .row .leftBox .joinBtnFx .joinBtn button:hover {
+  background-color: rgb(255, 109, 61);
+}
+
+section .mainContain .row .leftBox .joinBtnFx .joinBtn button:active {
+  background-color: rgb(255, 161, 130);
+}
 /* end joinBtn */
 
 /* //////////////  start right box ///////////// */
@@ -411,9 +418,9 @@ section .mainContain .row .leftBox .joinBtnFx .joinBtn button {
 /* section .mainContain .row .rightBox .trenContain .row .mainTrending {
   background-color: rgb(228, 194, 182);
 } */
-section .mainContain .row .rightBox .trenContain .row .mainTrending h6 {
+/* section .mainContain .row .rightBox .trenContain .row .mainTrending h6 {
   padding-left: 12px;
-}
+} */
 
 /* start content one of trending box */
 section
@@ -427,8 +434,8 @@ section
   .colum1
   .boxItem_1 {
   background-color: rgb(205, 84, 41);
-  width: 238px;
-  height: 178px;
+  width: 100%;
+  height: auto;
   cursor: pointer;
   border-radius: 0.5em;
   background-image: linear-gradient(
@@ -648,6 +655,7 @@ section
   h6 {
   padding: 12px;
   margin: 0px;
+  padding-left: 0px;
 }
 
 /* start set layout of firstbox of mainPopularContent */
@@ -665,7 +673,6 @@ section
   width: 100%;
   height: auto;
   background-color: #fff;
-  margin-left: 12px;
   display: flex;
   border-radius: 4px;
   border: 1px solid #ccc;
@@ -687,6 +694,7 @@ section
   .firstBoxPopCN
   .contentFirstBox {
   padding: 10px 12px 10px 12px;
+  cursor: pointer;
 }
 
 /* end set padding of all icon and content in first box of popular post section */
@@ -811,6 +819,8 @@ section
   align-items: center;
   color: #9c9fa0;
   margin-right: 12px;
+  width: 75.36px;
+  height: 32px;
 }
 
 section
@@ -829,6 +839,162 @@ section
   margin-right: 6px;
 }
 
+section
+  .mainContain
+  .row
+  .rightBox
+  .mainPopularContent
+  .row
+  .supMainPopularCN
+  .rowSupMainPopCN
+  .grit_8
+  .firstBoxPopCN
+  .contentFirstBox
+  .new:hover {
+  background-color: #f6f7f8;
+  border-radius: 1.25em;
+}
+
+section
+  .mainContain
+  .row
+  .rightBox
+  .mainPopularContent
+  .row
+  .supMainPopularCN
+  .rowSupMainPopCN
+  .grit_8
+  .firstBoxPopCN
+  .contentFirstBox
+  .new:active {
+  background-color: #dbdee1;
+}
+
 /* end set layout of New box in first box */
+
+/* start set layout of top box in first box */
+
+section
+  .mainContain
+  .row
+  .rightBox
+  .mainPopularContent
+  .row
+  .supMainPopularCN
+  .rowSupMainPopCN
+  .grit_8
+  .firstBoxPopCN
+  .contentFirstBox
+  .top {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+  height: 32px;
+  width: 68.66px;
+  color: #9c9fa0;
+}
+
+section
+  .mainContain
+  .row
+  .rightBox
+  .mainPopularContent
+  .row
+  .supMainPopularCN
+  .rowSupMainPopCN
+  .grit_8
+  .firstBoxPopCN
+  .contentFirstBox
+  .top
+  i {
+  margin-right: 6px;
+}
+
+section
+  .mainContain
+  .row
+  .rightBox
+  .mainPopularContent
+  .row
+  .supMainPopularCN
+  .rowSupMainPopCN
+  .grit_8
+  .firstBoxPopCN
+  .contentFirstBox
+  .top:hover {
+  background-color: #f6f7f8;
+  border-radius: 1.25em;
+}
+
+section
+  .mainContain
+  .row
+  .rightBox
+  .mainPopularContent
+  .row
+  .supMainPopularCN
+  .rowSupMainPopCN
+  .grit_8
+  .firstBoxPopCN
+  .contentFirstBox
+  .top:active {
+  background-color: #dbdee1;
+}
+
+/* end set layout of top box in first box */
+
+/* start set layout of dot box in first box */
+
+section
+  .mainContain
+  .row
+  .rightBox
+  .mainPopularContent
+  .row
+  .supMainPopularCN
+  .rowSupMainPopCN
+  .grit_8
+  .firstBoxPopCN
+  .contentFirstBox
+  .dot {
+  display: inline-flex;
+  align-items: center;
+  color: #9c9fa0;
+  padding: 8px;
+}
+
+section
+  .mainContain
+  .row
+  .rightBox
+  .mainPopularContent
+  .row
+  .supMainPopularCN
+  .rowSupMainPopCN
+  .grit_8
+  .firstBoxPopCN
+  .contentFirstBox
+  .dot:hover {
+  border-radius: 20px;
+  background-color: #f6f7f8;
+}
+
+section
+  .mainContain
+  .row
+  .rightBox
+  .mainPopularContent
+  .row
+  .supMainPopularCN
+  .rowSupMainPopCN
+  .grit_8
+  .firstBoxPopCN
+  .contentFirstBox
+  .dot:active {
+  background-color: #dbdee1;
+}
+
+/* end set layout of dot box in first box */
 
 /* -------- end Popular post section content -------- */
