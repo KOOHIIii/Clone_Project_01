@@ -1,6 +1,6 @@
-document.getElementById("myCard").addEventListener("click", function () {
-  document.getElementById("dropDown").style.display = "block";
-});
-document.getElementById("myCard").addEventListener("dblclick", function () {
-  document.getElementById("dropDown").style.display = "none";
+function clickDropdown() {
+  document.getElementById("dropDown").classList.toggle("show");
+}
+document.getElementById("dropBtn").addEventListener("click", function () {
+  document.getElementById("myDropdown").classList.toggle("code");
 });

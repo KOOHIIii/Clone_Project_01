@@ -1076,7 +1076,7 @@ section
 
 /* set dropdown of card box */
 
-section
+/* section
   .mainContain
   .row
   .rightBox
@@ -1087,8 +1087,8 @@ section
   .grit_8
   .firstBoxPopCN
   .contentFirstBox
-  .card
-  .my-dropDown {
+  .card */
+.my_dropDown {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
@@ -1101,7 +1101,7 @@ section
   border-radius: 0.25em;
 }
 
-section
+/* section
   .mainContain
   .row
   .rightBox
@@ -1112,14 +1112,17 @@ section
   .grit_8
   .firstBoxPopCN
   .contentFirstBox
-  .card
-  .my-dropDown
-  a {
+  .card */
+.my_dropDown a {
   display: block;
   width: 100%;
   text-decoration: none;
   color: #000;
 }
+.show {
+  display: block;
+}
+/* creat classname for use Classlist properties in javaScript to show dropsown when click dropdownBtn */
 
 /* end set layout of card box in first box */
 
