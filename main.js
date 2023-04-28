@@ -1,6 +1,16 @@
-function clickDropdown() {
+function myfunction() {
   document.getElementById("dropDown").classList.toggle("show");
 }
-document.getElementById("dropBtn").addEventListener("click", function () {
-  document.getElementById("myDropdown").classList.toggle("code");
-});
+
+window.onclick = function (event) {
+  if (!event.target.matches(".dropBtn")) {
+    var dropdowns = document.getElementsByClassName("my_dropDown");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains("show")) {
+        openDropdown.classList.remove("show");
+      }
+    }
+  }
+};
